@@ -194,3 +194,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+LiveScan.VC.db
+LiveScan.VC.VC.opendb
+bin

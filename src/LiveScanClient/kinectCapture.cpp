@@ -14,6 +14,7 @@
 //    }
 #include "KinectCapture.h"
 #include <chrono>
+#include "KDetectMemoryLeak.h"
 
 KinectCapture::KinectCapture()
 {

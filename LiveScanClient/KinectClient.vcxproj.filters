@@ -57,6 +57,9 @@
     <ClInclude Include="..\include\LiveScanClient\frameFileWriterReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\LiveScanClient\KDetectMemoryLeak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\socketCS.cpp">

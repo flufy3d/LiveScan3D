@@ -25,6 +25,7 @@
     <ClInclude Include="..\include\LiveScanClient\iCapture.h" />
     <ClInclude Include="..\include\LiveScanClient\imageRenderer.h" />
     <ClInclude Include="..\include\LiveScanClient\iMarker.h" />
+    <ClInclude Include="..\include\LiveScanClient\KDetectMemoryLeak.h" />
     <ClInclude Include="..\include\LiveScanClient\kinectCapture.h" />
     <ClInclude Include="..\include\LiveScanClient\liveScanClient.h" />
     <ClInclude Include="..\include\LiveScanClient\marker.h" />

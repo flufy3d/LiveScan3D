@@ -20,8 +20,16 @@
 #include <strsafe.h>
 #include <fstream>
 #include "zstd.h"
+#include "KDetectMemoryLeak.h"
 
 std::mutex m_mSocketThreadMutex;
+
+void Exit()
+{
+	int i = _CrtDumpMemoryLeaks();
+	assert(i == 0);
+}
+
 
 int APIENTRY wWinMain(    
 	_In_ HINSTANCE hInstance,
@@ -30,6 +38,7 @@ int APIENTRY wWinMain(
     _In_ int nShowCmd
     )
 {
+	atexit(Exit);
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 

@@ -42,3 +42,4 @@ inline void SafeRelease(Interface *& pInterfaceToRelease)
         pInterfaceToRelease = NULL;
     }
 }
+

@@ -4,6 +4,7 @@
 #include "SocketCS.h"
 #pragma comment(lib, "ws2_32.lib")
 #include <iostream>
+#include "KDetectMemoryLeak.h"
 
 using namespace std;
 
